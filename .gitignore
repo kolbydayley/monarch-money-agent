@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+!.env.example
+session*.json
+*.session.json
+exports/
+reports/
+private/
+.mm/
+*.log
+*.csv
+*.sqlite*
+.DS_Store

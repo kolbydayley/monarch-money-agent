@@ -1,0 +1,14 @@
+{
+  "name": "monarch-money-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portable Monarch Money CLI and AI agent skill",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "login": "node scripts/monarch-session-login.js",
+    "monarch": "node scripts/monarch-direct.js",
+    "test": "node --test test/*.test.js"
+  }
+}
